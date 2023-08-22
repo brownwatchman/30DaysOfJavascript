@@ -1,17 +1,21 @@
-// Declaring different variables of different data types
-let firstName = 'Asabeneh' // first name of a person
-let lastName = 'Yetayeh' // last name of a person
-let country = 'Finland' // country
-let city = 'Helsinki' // capital city
-let age = 100 // age in years
-let isMarried = true
+//comments can make code readable
+//Welcome to 30DaysOfJavaScript
 
-// Declaring variables with number values
-const gravity = 9.81 // earth gravity  in m/s2
-const boilingPoint = 100 // water boiling point, temperature in oC
-const PI = 3.14 // geometrical constant
+// created variables file and declare 4 variables without assigning values
+let var1, var2, var3, var4;
 
-// Variables can also be declaring in one line separated by comma
-let name = 'Asabeneh', //name of a person
-  job = 'teacher',
-  live = 'Finland'
+// declare 4 variable assigning values to them
+let favoriteBand = "Dawes"; 
+let coffee = "White-Mocha"; 
+let middleName = "Alexander";
+let school = "Tooele Tech"
+
+// declare variable to store firstname, lastname, marital status, country and age in multiple lines;
+let firstName = "Michael";
+let lastName = "Giron";
+let isMarried = true;
+let country = "United States";
+let age = 32;
+
+// now storing using one line
+let firstName, lastName, isMarried, country, age = "Michael", "Giron", false, "United States", 32;
